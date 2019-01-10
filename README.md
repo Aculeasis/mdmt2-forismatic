@@ -3,7 +3,7 @@
 # Установка
 ```
 cd mdmTerminal2/src/plugins
-git clone -b def https://github.com/Aculeasis/mdmt2-forismatic
+git clone -b def https://github.com/Aculeasis/mdmt2-forismatic mdmt2-forismatic-say
 ```
 И перезапустить терминал.
 # Описание
