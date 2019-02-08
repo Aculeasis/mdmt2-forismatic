@@ -164,7 +164,7 @@ class Main(threading.Thread):
 
     def _subscribe(self):
         self.own.subscribe(self._events, self._callback)
-        self.own.insert_module(DynamicModule(self._mod_callback, NM, ['скажи афоризм', EQ]))
+        self.own.insert_module(DynamicModule(self._mod_callback, NM, [['скажи афоризм', EQ], ['расскажи афоризм', EQ]]))
 
     def _unsubscribe(self):
         self.own.unsubscribe(self._events, self._callback)
