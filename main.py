@@ -8,7 +8,7 @@ API = 99999
 
 
 def Main(owner, **_):
-    owner.insert_module(DynamicModule(forismatic_say, NM, ['скажи афоризм', EQ]))
+    owner.insert_module(DynamicModule(forismatic_say, NM, [['скажи афоризм', EQ], ['расскажи афоризм', EQ]]))
 
 
 def forismatic_say(*_):
