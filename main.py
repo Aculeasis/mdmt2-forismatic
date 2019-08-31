@@ -58,6 +58,18 @@ CFG_RELOAD = {'settings': ('lang',)}
 """
 # DISABLE = False
 
+"""
+Опционально. None или tuple(int, int, int).
+Задает минимальную версию терминала на которой плагин будет запущен.
+"""
+TERMINAL_VER_MIN = (0, 0, 0)
+
+"""
+Опционально. None или tuple(int, int, int).
+Задает максимальную версию терминала на которой плагин будет запущен.
+"""
+TERMINAL_VER_MAX = (9999, 9999, 9999)
+
 
 class Main(threading.Thread):
     """
